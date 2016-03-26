@@ -1,4 +1,10 @@
-body {
-  background-color: #BADA55;
-  color: #333333;
+* {
+  box-sizing: border-box;
+}
+
+.main-content {
+  background-color: #26abd2;
+  display: block;
+  width: 1200px;
+  margin: 0 auto;
 }
