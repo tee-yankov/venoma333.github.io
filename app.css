@@ -2,9 +2,30 @@
   box-sizing: border-box;
 }
 
+.main-title {
+  text-align: center;
+  padding: 24px 0;
+  color: #ffed00;
+}
+
 .main-content {
+  position: relative;
   background-color: #26abd2;
-  display: block;
   width: 1200px;
   margin: 0 auto;
+}
+
+.content {
+  margin-left: 200px;
+  max-width: 1000px;
+  background-color: #15b43c;
+  color: white;
+  display: inline-block;
+}
+
+.nav-container {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
